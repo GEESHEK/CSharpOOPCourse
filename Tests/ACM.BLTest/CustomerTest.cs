@@ -48,7 +48,7 @@ public class CustomerTest
     }
     
     [TestMethod]
-    public voidFullNameLastNameEmptyTest()
+    public void FullNameLastNameEmptyTest()
     {
         //Arrange 
         Customer customer = new Customer()

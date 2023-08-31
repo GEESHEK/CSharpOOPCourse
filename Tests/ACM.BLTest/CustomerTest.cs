@@ -88,4 +88,39 @@ public class CustomerTest
         Assert.AreEqual(3,Customer.InstanceCount);
     }
 
+    [TestMethod]
+    public void ValidateValid()
+    {
+        //Arrange
+        var customer = new Customer()
+        {
+            LastName = "Baggins",
+            EmailAddress = "fbaagins@hobbiton.me"
+        };
+
+        var expected = true;
+        //Act
+        var actual = customer.Validate();
+        
+        //Assert
+        Assert.AreEqual(expected,actual);
+    }
+    
+    [TestMethod]
+    public void ValidateMissingLastNameValid()
+    {
+        //Arrange
+        var customer = new Customer()
+        {
+            LastName = "Baggins",
+        };
+
+        var expected = false;
+        //Act
+        var actual = customer.Validate();
+        
+        //Assert
+        Assert.AreEqual(expected,actual);
+    }
+
 }

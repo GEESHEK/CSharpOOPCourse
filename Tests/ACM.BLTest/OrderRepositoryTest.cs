@@ -2,10 +2,10 @@
 
 namespace ACM.BLTest
 {
-    [TestClass()]
+    [TestClass]
     public class OrderRepositoryTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void RetrieveOrderDisplayTest()
         {
             //-- Arrange

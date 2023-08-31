@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ACM.BL
+﻿namespace ACM.BL
 {
     public class Customer
     {
@@ -46,21 +44,6 @@ namespace ACM.BL
             set { lastName = value; }
         }
         
-        public Customer Retrieve(int customerId)
-        {
-            return new Customer();
-        }
-        
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
-
         public bool Validate()
         {
             var isValid = true;

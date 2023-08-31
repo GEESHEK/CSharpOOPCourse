@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace ACM.BL
 {
@@ -19,21 +18,6 @@ namespace ACM.BL
         public string ProductName { get; set; }
         public int ProductId { get; private set; }
         public DateTime OrderDate { get; set; }
-        
-        public Product Retrieve(int productId)
-        {
-            return new Product();
-        }
-        
-        public List<Product> Retrieve()
-        {
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
 
         public bool Validate()
         {

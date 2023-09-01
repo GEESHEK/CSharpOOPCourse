@@ -20,7 +20,7 @@ namespace ACM.BL
             if (orderId == 10)
             {
                 // Use current year in hard-coded data
-                order.OrderDate = new DateTimeOffset(DateTime.Now.Year, 4, 14, 10, 00, 00, 
+                order.OrderDate = new DateTimeOffset(DateTime.Now.Year, 4, 14, 10, 00, 00,
                     new TimeSpan(7, 0, 0));
             }
 
@@ -33,10 +33,28 @@ namespace ACM.BL
         /// <returns></returns>
         public bool Save(Order order)
         {
-            // Code that saves the passed in order
+            var success = true;
 
-            return true;
+            if (order.HasChanges)
+            {
+                if (order.IsValid)
+                {
+                    if (order.IsNew)
+                    {
+                        // Call an Insert Stored Procedure
+                    }
+                    else
+                    {
+                        // Call an Update Stored Procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+            return success;
         }
-
     }
 }

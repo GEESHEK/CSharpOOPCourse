@@ -5,5 +5,6 @@
     &lt;TestId&gt;MSTest::E8D88979-3176-41A5-A914-0BBE173B5C36::net6.0::ACM.BLTest.CustomerRepositoryTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::E8D88979-3176-41A5-A914-0BBE173B5C36::net6.0::ACM.BLTest.ProductRepositoryTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::E8D88979-3176-41A5-A914-0BBE173B5C36::net6.0::ACM.BLTest.OrderRepositoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::9DBDBE4A-E275-46B8-B91B-0DE4C43C3E21::net6.0::Acme.CommonTest.StringHandlerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

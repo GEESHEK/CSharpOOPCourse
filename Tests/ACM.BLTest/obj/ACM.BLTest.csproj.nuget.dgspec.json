@@ -11,6 +11,25 @@
         "projectPath": "C:\\Users\\geesh\\RiderProjects\\ACM\\ACM.BL\\ACM.BL.csproj",
         "frameworks": {
           "net48": {
+            "projectReferences": {
+              "C:\\Users\\geesh\\RiderProjects\\ACM\\Acme.Common\\Acme.Common.csproj": {
+                "projectPath": "C:\\Users\\geesh\\RiderProjects\\ACM\\Acme.Common\\Acme.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\geesh\\RiderProjects\\ACM\\Acme.Common\\Acme.Common.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geesh\\RiderProjects\\ACM\\Acme.Common\\Acme.Common.csproj",
+        "projectName": "Acme.Common",
+        "projectPath": "C:\\Users\\geesh\\RiderProjects\\ACM\\Acme.Common\\Acme.Common.csproj",
+        "frameworks": {
+          "net48": {
             "projectReferences": {}
           }
         }
